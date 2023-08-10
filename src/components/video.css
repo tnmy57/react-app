@@ -1,0 +1,24 @@
+.container{
+    color: #AAAAAA;
+    text-align: left;
+    margin: 5px;
+    padding: 10px;
+    background-color: #0F0F0F;
+    width: fit-content;
+    height: fit-content;
+}
+.views{
+    font-size: 12px;
+}
+.title{
+    color: white;
+    text-align: left;
+    font-weight: 600;
+    font-size: 16px;
+}
+.pic img{
+    border-radius: 10px;
+}
+.channel{
+    font-size: 14px;
+}
