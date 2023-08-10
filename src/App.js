@@ -4,7 +4,7 @@ import Video from "./components/video";
 function App() {
   const obj = 
     {
-      id: "1",
+      id: "101",
       title: "React Tutorial",
       channel: "Coder Dost",
       views: "145k",
@@ -17,14 +17,14 @@ function App() {
       <div className="App-header">
         <Video {...obj} />
         <Video
-          id="2"
+          id="102"
           title="Node JS Tutorial"
           channel="Coder Dost"
           views="100k"
           time=" 5 month ago"
         />
         <Video
-          id="3"
+          id="103"
           title="JavaScript Tutorial"
           channel="Coder Dost"
           views="1 M"
