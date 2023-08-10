@@ -3,8 +3,6 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import App2 from "./App2";
-
-const value = true;
 const stem = ReactDOM.createRoot(document.getElementById("stem"));
 const root = ReactDOM.createRoot(document.getElementById("root"));
 // value
