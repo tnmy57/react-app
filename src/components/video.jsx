@@ -5,6 +5,7 @@ import Border from "./border";
 const Video = ({ id, title, channel = "Coder Dost", views, time }) => {
   let url = `https://picsum.photos/id/${id}/200/100`;
   return (
+    <Border>
     <div className="container">
       <div className="pic">
         <img src={url} alt="" />
@@ -12,12 +13,12 @@ const Video = ({ id, title, channel = "Coder Dost", views, time }) => {
 
       <div className="title">{title}</div>
       <div className="channel">{channel}</div>
-      <Border>
+      
         <div className="views">
           {views} <span>•</span> {time}
         </div>
+      </div>
       </Border>
-    </div>
   );
 };
 

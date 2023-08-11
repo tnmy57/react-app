@@ -1,17 +1,18 @@
 .container{
-    color: #AAAAAA;
+    color: #333;
     text-align: left;
     margin: 5px;
     padding: 10px;
-    background-color: #0F0F0F;
+    background-color: #ffffff;
     width: fit-content;
     height: fit-content;
+    border-radius: 10px;
 }
 .views{
     font-size: 12px;
 }
 .title{
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: left;
     font-weight: 600;
     font-size: 16px;
