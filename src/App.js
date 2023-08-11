@@ -30,7 +30,18 @@ function App() {
           onBlur={() => {
             console.log("Out of the textbox");
           }}
+          onKeyDown={(e) =>{
+            e.key === "Enter" && console.log(e.target.value);
+          }}
         ></input>
+        <button
+          onClick={(e) => {
+            e.preventDefault();
+            console.log(e)
+          }}
+        >
+          Submit
+        </button>
       </form>
       <button
         onClick={() => {
@@ -40,7 +51,7 @@ function App() {
           alert("hi");
         }}
       >
-        submit
+        console
       </button>
     </div>
   );
